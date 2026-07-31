@@ -15,6 +15,11 @@ header {
     justify-content: space-between;
 }
 
+.fale a {
+    text-decoration: none;
+    color: var(--color-neutral-1);
+}
+
 #nav-links{
     display: flex;
     list-style: none;
