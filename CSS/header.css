@@ -51,6 +51,11 @@ header {
         display: none;
     }
 
+    .fale-mobile a {
+        text-decoration: none;
+        color: var(--color-neutral-1);
+    }
+
     #mobile_btn {
         display: block;
         border: none;
