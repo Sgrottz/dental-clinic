@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url("header.css");
+@import url("home.css");
+@import url("menu.css");
+@import url("testimonials.css");
+@import url("footer.css");
+@import url("contact.css");
+
+:root{
+    --Off-White: #E8EBD7; /*Fundo principal*/
+    --Primária: #1A6874; 
+    --Primária-escura: #084044;
+
+    --color-neutral-0: #fff;
+    --color-neutral-1: #1d1d1d;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--Off-White);
+    padding-top: 125px;
+}
+
+section{
+    padding: 28px 8%;
+}
+
+.btn-default {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1A6874;
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-default:hover {
+    background-color: #084044;
+}
+
+.social-media-buttons {
+    display: flex;
+    gap: 18px;
+}
+
+.social-media-buttons a {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 40px;
+    background-color: #ffffff;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color:black;
+    box-shadow: 0px 0px 12px 4px rgba(0 , 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.social-media-buttons a:hover {
+    box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    color: var(--Primária);
+    font-size: 1.563rem;
+}
+
+.section-subtitle {
+    font-size: 2.1875rem;
+}
+
+.btn-whatsapp{
+    margin-top:40px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+
+    padding:15px;
+
+    background:white;
+    color:#1A6874;
+
+    border-radius:12px;
+
+    font-weight:600;
+
+    transition:.3s;
+}
+
+.btn-whatsapp:hover{
+    transform:translateY(-3px);
+}
