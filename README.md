@@ -4,7 +4,7 @@ A website built with React to showcase my projects, skills, and contact informat
 
 1. Clone this repository:
 ```bash
-   git clone https://github.com/cbperuzzo/Sgrottz.git
+   git clone https://github.com/Sgrottz.git
    cd portfolio
 ```
 2. Install dependencies:
