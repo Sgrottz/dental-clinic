@@ -41,11 +41,8 @@ Includes:
 - `content.json` : all textual content and dynamic page data is stored here.
 
 ### sections/
-Main page sections of the portfolio (large components).  
-
-### utils/
-Helper functions or small modules used across the app.  
-
+Main page sections of the landing page (large components).  
+  
 ### App.jsx
 The root component of the application. Wraps all sections.
 
