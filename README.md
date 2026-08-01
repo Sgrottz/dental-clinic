@@ -4,8 +4,8 @@ A website built with React to showcase my projects, skills, and contact informat
 
 1. Clone this repository:
 ```bash
-   git clone https://github.com/Sgrottz/minha-clinica.git
-   cd minha-clinica
+   git clone https://github.com/Sgrottz/dental-clinic
+   cd dental-clinic
 ```
 2. Install dependencies:
 ```bash
