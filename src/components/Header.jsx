@@ -60,6 +60,11 @@ function Header() {
           <li className={`nav-item ${activeSection === "contact" ? "active" : ""}`}>
             <a href="#contact">Contato</a>
           </li>
+
+          <li className={`nav-item ${activeSection === "location" ? "active" : ""}`}>
+            <a href="#location">Localização</a>
+          </li>
+
         </ul>
 
         <div className="fale">
@@ -104,6 +109,12 @@ function Header() {
           <li className={`nav-item ${activeSection === "contact" ? "active" : ""}`}>
             <a href="#contact" onClick={() => setMenuOpen(false)}>
               Contato
+            </a>
+          </li>
+
+          <li className={`nav-item ${activeSection === "location" ? "active" : ""}`}>
+            <a href="#location" onClick={() => setMenuOpen(false)}>
+              Localização
             </a>
           </li>
         </ul>
